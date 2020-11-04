@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: #9B835F;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #F9B23D;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+.rocks {
+      max-width: 75px;
+      padding: 10px;
+  }
+.match-result{
+    vertical-align: middle;
+}
+.img-hover:hover{
+    transform: scale(1.2) rotate(15deg);
+}
+.chosen {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+  }
+  
+.vs {
+    text-align: center;
+    color: #BD0000;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 12.5rem;
+    margin-bottom: 3rem;
+  }
+.player-win,
+.com-win {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 10rem;
+  background-color: #4C9654;
+  transform: rotate(-15deg);
+  height: 10rem;
+  padding-top: 2.5rem;
+  margin-bottom: 10rem;
+  display: none;
+}
+.draw {
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 10rem;
+  background-color: #035B0C;
+  transform: rotate(-15deg);
+  height: 10rem;
+  padding-top: 3.5rem;
+  margin-bottom: 10rem;
+  display: none;
+}
